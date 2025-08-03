@@ -1,23 +1,17 @@
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 30;
-let colourChanger =2;
-let backgroundShape = 1;
+let colourChanger =2;//changes the colour of the octopus,1=blue,2=red,3=green.
+let backgroundShape = 1;//changes between circle(1) and square(2).
+let rectRounding = 20;//changes sqaure length
 
-let curved = 15;
-let eye = 2;
-let rectRounding = 100;
-let tentacle = 10;
-let tenctacleWidth = 10;
-let creamCircle = 120;
-let myColour1 = color(173, 88, 64);//rusty red
-let myColour2 = color(68, 102, 65);//green
-
+let curved =30;//changes the curvieness of the tentacles.
+let eye = 30;//changesthe curvieness of the eyes.
+let tentacle = 100;//curvieness of suction parts
+let tenctacleWidth = 13;// tentacle width.
+let creamCircle = 90;// radius of cream circle.
 
 function setup_wallpaper(pWallpaper) {
   // pWallpaper.output_mode(DEVELOP_GLYPH);
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.resolution(A3);
   pWallpaper.show_guide(false); 
 
   //Grid settings
@@ -62,17 +56,17 @@ else if(backgroundShape == 2){
 
   //backround squares
 fill(252,222,214)//cream
-rect(50,50,83,rectRounding)
-rect(50,150,83,rectRounding)
+rect(50,50,83,rectSize)
+rect(50,150,83,rectSize)
 fill(242, 104, 73)//red
-rect(50,50,80,rectRounding)
-rect(50,150,80,rectRounding)
+rect(50,50,80,rectSize)
+rect(50,150,80,rectSize)
 fill(255, 217,66)//yellow
-rect(50,50,70,rectRounding)
-rect(50,150,70,rectRounding)
+rect(50,50,70,rectSize)
+rect(50,150,70,rectSize)
 fill(230, 141, 58)//orange
-rect(50,50,60,rectRounding)
-rect(50,150,60,rectRounding)
+rect(50,50,60,rectSize)
+rect(50,150,60,rectSize)
 }
 
 //If statment for the colours

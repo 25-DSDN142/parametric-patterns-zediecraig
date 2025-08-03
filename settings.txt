@@ -1,54 +1,288 @@
 You will need to fill out this file for hand in. 
 
-The bellow is just an example, feel free to disregard this documents contents.
+The below is just an example, feel free to disregard this documents contents.
 
 
 Your final settings.txt will look something like this when you are finished:
 
 /////////////////////////////////
 
+
 Wallpaper 1:
 
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+
+let colourChanger =2;//changes the colour of the octopus,1=blue,2=red,3=green.
+let backgroundShape = 2;//changes between circle(1) and square(2).
+let rectRounding = 200;//changes sqaure length
+
+let curved =1;//changes the curvieness of the tentacles.
+let eye = 2;//changesthe curvieness of the eyes.
+let tentacle = 1;//curvieness of suction parts
+let tenctacleWidth = 10;// tentacle width.
+let creamCircle = 100;// radius of cream circle.
+
 
 function setup_wallpaper(pWallpaper) {
+  // pWallpaper.output_mode(DEVELOP_GLYPH);
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+
 }
 
 /////////////////////////////////
 
+
 Wallpaper 2:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+
+let colourChanger =1;//changes the colour of the octopus,1=blue,2=red,3=green.
+let backgroundShape = 1;//changes between circle(1) and square(2).
+let rectRounding = 200;//changes sqaure length
+
+let curved =20;//changes the curvieness of the tentacles.
+let eye = 20;//changesthe curvieness of the eyes.
+let tentacle = 100;//curvieness of suction parts
+let tenctacleWidth = 1;// tentacle width.
+let creamCircle = 100;// radius of cream circle.
+
 
 function setup_wallpaper(pWallpaper) {
+  // pWallpaper.output_mode(DEVELOP_GLYPH);
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 0;
+
 }
+
+/////////////////////////////////
+
+
+Wallpaper 3:
+
+//your parameter variables go here!
+
+let colourChanger =3;//changes the colour of the octopus,1=blue,2=red,3=green.
+let backgroundShape = 1;//changes between circle(1) and square(2).
+let rectRounding = 200;//changes sqaure length
+
+let curved =30;//changes the curvieness of the tentacles.
+let eye = 30;//changesthe curvieness of the eyes.
+let tentacle = 100;//curvieness of suction parts
+let tenctacleWidth = 20;// tentacle width.
+let creamCircle = 140;// radius of cream circle.
+
+
+function setup_wallpaper(pWallpaper) {
+  // pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+
+}
+
+/////////////////////////////////
+
+
+Wallpaper 4:
+
+//your parameter variables go here!
+
+let colourChanger =1;//changes the colour of the octopus,1=blue,2=red,3=green.
+let backgroundShape = 0;//changes between circle(1) and square(2).
+let rectRounding = 200;//changes sqaure length
+
+let curved =30;//changes the curvieness of the tentacles.
+let eye = 30;//changesthe curvieness of the eyes.
+let tentacle = 100;//curvieness of suction parts
+let tenctacleWidth = 8;// tentacle width.
+let creamCircle = 140;// radius of cream circle.
+
+
+function setup_wallpaper(pWallpaper) {
+  // pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+
+}
+
+/////////////////////////////////
+
+
+Wallpaper 5:
+
+//your parameter variables go here!
+
+let colourChanger =2;//changes the colour of the octopus,1=blue,2=red,3=green.
+let backgroundShape = 1;//changes between circle(1) and square(2).
+let rectRounding = 20;//changes sqaure length
+
+let curved =30;//changes the curvieness of the tentacles.
+let eye = 30;//changesthe curvieness of the eyes.
+let tentacle = 100;//curvieness of suction parts
+let tenctacleWidth = 13;// tentacle width.
+let creamCircle = 90;// radius of cream circle.
+
+
+function setup_wallpaper(pWallpaper) {
+  // pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+
+}
+
+/////////////////////////////////
+
+
+Wallpaper 6:
+
+//your parameter variables go here!
+
+let colourChanger =3;//changes the colour of the octopus,1=blue,2=red,3=green.
+let backgroundShape = 2;//changes between circle(1) and square(2).
+let rectSize = 40;//changes sqaure size
+
+let curved =1;//changes the curvieness of the tentacles.
+let eye = 1;//changes the curvieness of the eyes.
+let tentacle = 100;//curvieness of suction parts
+let tenctacleWidth = 14;// tentacle width.
+let creamCircle = 90;// radius of cream circle.
+
+
+function setup_wallpaper(pWallpaper) {
+  // pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+
+}
+
+/////////////////////////////////
+
+
+Wallpaper 7:
+
+//your parameter variables go here!
+
+let colourChanger =1;//changes the colour of the octopus,1=blue,2=red,3=green.
+let backgroundShape = 2;//changes between circle(1) and square(2).
+let rectSize = 80;//changes sqaure size
+
+let curved = 20;//changes the curvieness of the tentacles.
+let eye = 5;//changes the curvieness of the eyes.
+let tentacle = 100;//curvieness of suction parts
+let tenctacleWidth = 16;// tentacle width.
+let creamCircle = 170;// radius of cream circle.
+
+
+function setup_wallpaper(pWallpaper) {
+  // pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+
+}
+
+/////////////////////////////////
+
+
+Wallpaper 8:
+
+//your parameter variables go here!
+
+let colourChanger =2;//changes the colour of the octopus,1=blue,2=red,3=green.
+let backgroundShape = 1;//changes between circle(1) and square(2).
+let rectSize = 70;//changes sqaure size
+
+let curved = 20;//changes the curvieness of the tentacles.
+let eye = 20;//changes the curvieness of the eyes.
+let tentacle = 100;//curvieness of suction parts
+let tenctacleWidth = 24;// tentacle width.
+let creamCircle = 170;// radius of cream circle.
+
+
+function setup_wallpaper(pWallpaper) {
+  // pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+
+}
+
+/////////////////////////////////
+
+
+Wallpaper 9:
+
+//your parameter variables go here!
+
+let colourChanger =3;//changes the colour of the octopus,1=blue,2=red,3=green.
+let backgroundShape = 1;//changes between circle(1) and square(2).
+let rectSize = 80;//changes sqaure size
+
+let curved = 5;//changes the curvieness of the tentacles.
+let eye = 10;//changes the curvieness of the eyes.
+let tentacle = 100;//curvieness of suction parts
+let tenctacleWidth = 6;// tentacle width.
+let creamCircle = 170;// radius of cream circle.
+
+
+function setup_wallpaper(pWallpaper) {
+  // pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); 
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+
+}
+
+/////////////////////////////////
+
