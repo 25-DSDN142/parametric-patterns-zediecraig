@@ -1,11 +1,15 @@
+//your parameter variables go here!
+
 let colourChanger =2;//changes the colour of the octopus,1=blue,2=red,3=green.
 let backgroundShape = 1;//changes between circle(1) and square(2).
 let rectRounding = 20;//changes sqaure length
-let curved = 30;//changes the curviness of the tentacles.
+
+let curved =30;//changes the curviness of the tentacles.
 let eye = 30;//changesthe curviness of the eyes.
 let tentacle = 100;//curviness of suction parts
 let tenctacleWidth = 13;// tentacle width.
 let creamCircle = 90;// radius of cream circle.
+
 
 function setup_wallpaper(pWallpaper) {
   // pWallpaper.output_mode(DEVELOP_GLYPH);
@@ -19,7 +23,6 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.row_offset  = 0;
 
 }
-
 function wallpaper_background() {
   background(126, 179, 189); //light blue
 }
